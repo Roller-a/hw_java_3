@@ -1,13 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        int z = 1100;
-        int k = 400;
-        int f = 0;
-        if (k>1000) {
-             z += k/100;
-             f = k/100;
+        int initialAccount = 1100;
+        int replenishmentAmount = 1400;
+        int numberOfBonuses = 0;
+        if (replenishmentAmount > 1000) {
+            initialAccount += replenishmentAmount/100;
+            numberOfBonuses = replenishmentAmount/100;
         }
-        System.out.println(z);
-        System.out.println(f);
+        System.out.println(initialAccount);
+        System.out.println(numberOfBonuses);
     }
 }
