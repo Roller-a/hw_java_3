@@ -4,8 +4,8 @@ public class Main {
         int replenishmentAmount = 1400;
         int numberOfBonuses = 0;
         if (replenishmentAmount > 1000) {
-            initialAccount += replenishmentAmount/100;
-            numberOfBonuses = replenishmentAmount/100;
+            initialAccount += replenishmentAmount / 100;
+            numberOfBonuses = replenishmentAmount / 100;
         }
         System.out.println(initialAccount);
         System.out.println(numberOfBonuses);
